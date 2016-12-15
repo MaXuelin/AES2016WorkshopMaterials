@@ -8,15 +8,15 @@
 % IEEGAnnotationLayer
 
 % add toolbox to Matlab's path to access functions
-addpath(genpath('../'))
+addpath(genpath('..\'))
 
 % Once you've signed up and have been approved on the ieeg.org website, you can establish a key that will give you access permissions to connect to our server and interact with datasets'
 % This creates a .bin file that contains your login (unencrypted)
-IEEGSession.createPwdFile('username','password')
+% IEEGSession.createPwdFile('username','password')
 
 %% ENTER OWN USERNAME AND PASSWORD FILE HERE
-ieegUser = 'hoameng';
-ieegPwd = 'hoa_ieeglogin.bin';
+ieegUser = 'MaXuelin';
+ieegPwd = 'MaX_ieeglogin.bin';
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%
